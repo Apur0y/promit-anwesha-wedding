@@ -7,23 +7,23 @@ import { motion } from "framer-motion"
 export default function ContactPage() {
   const contacts = [
     {
-      name: "Mohammed Rahman",
+      name: "Father",
       relationship: "Groom's Father",
       mobile: "+880 1712-345678",
     },
     {
-      name: "Fatima Khan",
+      name: "Mother",
       relationship: "Bride's Mother",
       mobile: "+880 1812-345678",
     },
     {
-      name: "Ahmed Hassan",
-      relationship: "Best Man",
+      name: "Brother",
+      relationship: "Groom's Brother",
       mobile: "+880 1912-345678",
     },
     {
-      name: "Nadia Sultana",
-      relationship: "Maid of Honor",
+      name: "Brother",
+      relationship: "Bride's Brother",
       mobile: "+880 1612-345678",
     },
   ]

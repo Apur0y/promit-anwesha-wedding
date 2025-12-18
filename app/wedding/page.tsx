@@ -20,7 +20,7 @@ export default function WeddingPage() {
     },
     {
       title: "Reception",
-      date: "January 23, 2026",
+      date: "January 24, 2026",
       time: "7:00 PM - 11:00 PM",
       location: "Grand Ballroom, Dhaka",
     },
