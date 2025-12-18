@@ -3,6 +3,7 @@
 import { BottomNav } from "@/components/bottom-nav"
 import { ContactCard } from "@/components/contact-card"
 import { motion } from "framer-motion"
+import Image from "next/image"
 
 export default function ContactPage() {
   const contacts = [
@@ -46,6 +47,13 @@ export default function ContactPage() {
         </div>
       </motion.div>
       <BottomNav activeTab="contact" />
+
+      <div className="flex justify-center items-center m-20 ">
+           <Image height={500} width={500} src="/me.jpg" alt="Ahmed - The Groom"  className="object-cover" />
+
+      </div>
+
+
     </main>
   )
 }

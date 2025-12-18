@@ -16,7 +16,7 @@ export function IntroductionSection() {
           className="flex flex-col items-center md:items-start"
         >
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden mb-6 shadow-xl">
-            <Image src="/handsome-groom-formal-portrait-wedding-suit.jpg" alt="Ahmed - The Groom" fill className="object-cover" />
+            <Image height={300} width={300} src="/handsome-groom-formal-portrait-wedding-suit.jpg" alt="Ahmed - The Groom"  className="object-cover" />
           </div>
           <h2 className="font-serif text-3xl md:text-4xl mb-3 text-[#FF5A58]">Promit Biswas</h2>
           <p className="text-muted-foreground text-center md:text-left leading-relaxed">
