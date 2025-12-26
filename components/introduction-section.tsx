@@ -15,13 +15,12 @@ export function IntroductionSection() {
           transition={{ duration: 0.8 }}
           className="flex flex-col items-center md:items-start"
         >
-          <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden mb-6 shadow-xl">
-            <Image height={300} width={300} src="/handsome-groom-formal-portrait-wedding-suit.jpg" alt="Ahmed - The Groom"  className="object-cover" />
+          <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden mb-6 shadow-xl border-4">
+            <Image height={300} width={400} src="/guti.png" alt="Ahmed - The Groom"  className="" />
           </div>
           <h2 className="font-serif text-3xl md:text-4xl mb-3 text-[#FF5A58]">Promit Biswas</h2>
-          <p className="text-muted-foreground text-center md:text-left leading-relaxed">
-            Son of Debashish Biswas and Provati Rani Biswas. A software engineer with a passion for technology and innovation. Promit
-            loves traveling, photography, and spending quality time with family and friends.
+          <p className="text-muted-foreground text-center text-sm md:text-base md:text-left leading-relaxed">
+            Elder son of Debashish Biswas and Provati Rani Biswas. He is a passionate Lecturer in Computer Science and Engineering, driven by curiosity and a deep passion for researching emerging technologies. He believes in learning, teaching, and innovating with purpose—while finding joy in travel, photography, and meaningful moments with family and friends.
           </p>
         </motion.div>
 
@@ -33,13 +32,12 @@ export function IntroductionSection() {
           transition={{ duration: 0.8 }}
           className="flex flex-col items-center md:items-end"
         >
-          <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden mb-6 shadow-xl">
-            <Image src="/beautiful-bride-portrait-elegant-wedding-dress.jpg" alt="Sarah - The Bride" fill className="object-cover" />
+          <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden mb-6 shadow-xl border-4">
+            <Image src="/anwesha.jpeg" alt="Sarah - The Bride" fill className="object-cover" />
           </div>
-          <h2 className="font-serif text-3xl md:text-4xl mb-3 text-[#FF5A58]">Anwesha Mondal Proma </h2>
-          <p className="text-muted-foreground text-center md:text-right leading-relaxed">
-            Daughter of her Father and Mother. A talented botanist who brings creativity and elegance to every project.
-            Anwesha enjoys reading, painting, and creating beautiful spaces for people to live and love.
+          <h2 className="font-serif text-3xl text-center md:text-start md:text-4xl mb-3 text-[#FF5A58] ">Anwesha Mondal Proma</h2>
+          <p className="text-muted-foreground text-sm md:text-base text-center md:text-right leading-relaxed">
+            Only daughter of Tapon Kumar and Milota Rani Pramanick. She has completed her BSc and MSc from the University of Dhaka and works as an Executive in the English Version at Panjeree Publications. An extroverted, nature-loving individual, she enjoys traveling and embraces life with energy, warmth, and curiosity.
           </p>
         </motion.div>
       </div>

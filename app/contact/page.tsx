@@ -6,28 +6,34 @@ import { motion } from "framer-motion"
 import Image from "next/image"
 
 export default function ContactPage() {
-  const contacts = [
-    {
-      name: "Father",
-      relationship: "Groom's Father",
-      mobile: "+880 1712-345678",
-    },
-    {
-      name: "Mother",
-      relationship: "Bride's Mother",
-      mobile: "+880 1812-345678",
-    },
-    {
-      name: "Brother",
-      relationship: "Groom's Brother",
-      mobile: "+880 1912-345678",
-    },
-    {
-      name: "Brother",
-      relationship: "Bride's Brother",
-      mobile: "+880 1612-345678",
-    },
-  ]
+const contacts = [
+  {
+    name: "Debashish Biswas",
+    relationship: "Groom's Father",
+    mobile: "+880 1867-189172",
+  },
+  {
+    name: "Provati Rani Biswas",
+    relationship: "Groom's Mother",
+    mobile: "+880 1916-673646",
+  },
+  {
+    name: "Diganta Biswas",
+    relationship: "Groom's Brother",
+    mobile: "+880 1861-477332",
+  },
+  {
+    name: "Tapon Kumar",
+    relationship: "Bride's Father",
+    mobile: "+880 1716-464250",
+  },
+  {
+    name: "Milota Rani Pramanick",
+    relationship: "Bride's Mother",
+    mobile: "+880 1919-462055",
+  },
+];
+
 
   return (
     <main className="min-h-screen pb-24 px-4 pt-8">
