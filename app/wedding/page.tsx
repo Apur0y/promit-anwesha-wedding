@@ -12,7 +12,7 @@ const events = [
     time: "6:00 PM - 9:00 PM",
     location: "Bagharpara, Jessore",
     mapLink: "https://maps.app.goo.gl/W61Vi61wkFqqsGfZ7",
-    image: "https://images.pexels.com/photos/19536439/pexels-photo-19536439.jpeg",
+    image: "/holud.jpg",
   },
   {
     title: "Marriage",
@@ -21,7 +21,7 @@ const events = [
     location: "Narail & Bagharpara",
     brideLocation: "https://maps.app.goo.gl/W61Vi61wkFqqsGfZ7",
     groomLocation: "https://goo.gl/maps/W9Z77pDLhY6Br6iB9",
-    image: "/images/marriage.jpg",
+    image: "/marriage.avif",
   },
   {
     title: "Reception",
@@ -29,7 +29,7 @@ const events = [
     time: "12:00 PM - 3:30 PM",
     location: "Narail",
     mapLink: "https://maps.app.goo.gl/qhjWxAsAGX2ZsupS6",
-    image: "/images/reception.jpg",
+    image: "/reception.avif",
   },
 ]
 

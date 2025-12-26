@@ -54,12 +54,6 @@ const contacts = [
       </motion.div>
       <BottomNav activeTab="contact" />
 
-      <div className="flex justify-center items-center m-20 ">
-           <Image height={500} width={500} src="/me.jpg" alt="Ahmed - The Groom"  className="object-cover" />
-
-      </div>
-
-
     </main>
   )
 }

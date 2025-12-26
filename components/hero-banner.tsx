@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion"
 import { Leaf } from "lucide-react"
+import Image from "next/image"
 
 export function HeroBanner() {
   return (
@@ -11,12 +12,16 @@ export function HeroBanner() {
       transition={{ duration: 1 }}
       className="relative h-[70vh] md:h-[80vh] w-full overflow-hidden"
     >
-      {/* Background Image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage: `url('/elegant-wedding-couple-romantic-outdoor-sunset.jpg')`,
-        }}
+      {/* Optimized Background Image */}
+      <Image
+        src="/elegant-wedding-couple-romantic-outdoor-sunset.jpg"
+        alt="Wedding Couple"
+        fill
+        priority   // IMPORTANT: loads first (hero image)
+        sizes="100vw"
+        className="object-cover"
+        placeholder="blur"
+        blurDataURL="/blur-placeholder.jpg" // optional (explained below)
       />
 
       {/* Dark Overlay */}
@@ -28,7 +33,7 @@ export function HeroBanner() {
           initial={{ y: 30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.8 }}
-          className="font-serif text-5xl md:text-7xl text-center mb-6 text-balance"
+          className="font-serif text-5xl md:text-7xl text-center mb-6"
         >
           Promit & Anwesha
         </motion.h1>
@@ -40,7 +45,9 @@ export function HeroBanner() {
           className="flex items-center gap-4"
         >
           <Leaf className="w-5 h-5 text-[#FF5A58]" />
-          <p className="text-xl md:text-2xl font-light tracking-wide">January 23, 2026</p>
+          <p className="text-xl md:text-2xl font-light tracking-wide">
+            January 23, 2026
+          </p>
           <Leaf className="w-5 h-5 text-[#FF5A58] rotate-180" />
         </motion.div>
       </div>
