@@ -29,13 +29,13 @@ const events = [
     time: "12:00 PM - 3:30 PM",
     location: "Narail",
     mapLink: "https://maps.app.goo.gl/qhjWxAsAGX2ZsupS6",
-    image: "/reception.avif",
+    image: "https://img.freepik.com/free-photo/groom-bride-s-wedding-table-decorated-with-flowers-candles_8353-10400.jpg?t=st=1766734078~exp=1766737678~hmac=3fe52396e2638a3a2e0161f626cf82ee2580cd3e46094dc9ea1c902afb10b86f&w=1480",
   },
 ]
 
 
   return (
-    <main className="min-h-screen pb-24 px-4 pt-8">
+    <main className="min-h-screen pb-24 px-4 pt-8 mb-8">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}

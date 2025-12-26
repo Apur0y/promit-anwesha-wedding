@@ -36,7 +36,7 @@ const contacts = [
 
 
   return (
-    <main className="min-h-screen pb-24 px-4 pt-8">
+    <main className="min-h-screen pb-24 px-4 pt-8 mb-8">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}

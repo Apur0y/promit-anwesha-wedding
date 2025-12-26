@@ -36,7 +36,6 @@ export function EventCard({ event, index }: EventCardProps) {
             alt={event.title}
             fill
             className="object-cover"
-            priority
           />
           <div className="absolute inset-0 bg-black/30" />
           <h3 className="absolute bottom-4 left-4 font-serif text-2xl text-white">
@@ -81,7 +80,10 @@ export function EventCard({ event, index }: EventCardProps) {
                   target="_blank"
                   className="block text-sm text-[#FF5A58]"
                 >
-                  Bride’s Location →
+                                    <div className="flex gap-2 items-center">
+
+                  Bride’s Location <ExternalLink className="w-4 h-4" />
+                  </div>
                 </a>
               )}
 
@@ -89,9 +91,12 @@ export function EventCard({ event, index }: EventCardProps) {
                 <a
                   href={event.groomLocation}
                   target="_blank"
-                  className="block text-sm text-[#FF5A58]"
+                  className="block text-sm text-[#FF5A58] "
                 >
-                  Groom’s Location →
+                  <div className="flex gap-2 items-center">
+
+                  Groom’s Location <ExternalLink className="w-4 h-4" />
+                  </div>
                 </a>
               )}
             </div>
